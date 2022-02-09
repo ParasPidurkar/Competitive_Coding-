@@ -1,0 +1,1 @@
+O(1) Constant time > O(log n) Logarithmic > O (n) square root algorithm > O(n) Linear > O(n log n) > O ( n2 ) quadratic > O ( n 3 ) cubic >  O(2^n) (eg subset) > O(n!)(e.g permutations)
