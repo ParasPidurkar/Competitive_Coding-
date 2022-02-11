@@ -1,0 +1,26 @@
+g++ -g <code_name>
+
+gdb a.out
+layout next to display the code  
+p -print
+print array_name@10 
+
+p argc - print commnad line argument
+
+watch <variable name > - anytime the variable changes it is printed out
+r- run 
+b <function_name>
+b line number 
+n next 
+s step inside the function 
+l line 
+f  -frame/function current execution line 
+backtrace  bt - from where you are coming and where you are currently in the program
+info b - breakpoint info
+delete 1 - delete first breakpoint
+continue c - jump to breakpoint function
+
+using bt we can jump to frames 
+bt     and f <no of frame from bt response>
+
+info locals   functions local variable
