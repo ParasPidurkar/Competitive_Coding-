@@ -24,3 +24,8 @@ using bt we can jump to frames
 bt     and f <no of frame from bt response>
 
 info locals   functions local variable
+
+
+Valgring memory leak check 
+
+valgrind --leak-check=yes ./a.out
